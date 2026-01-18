@@ -1,4 +1,4 @@
-#Customer Shopping Behavior Analysis
+##Customer Shopping Behavior Analysis
 
 **End-to-End Data Analytics Portfolio Project**
 
@@ -108,7 +108,7 @@ customer-trends-data-analysis-SQL-Python-PowerBI/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+git clone https://github.com/uroojt6/Customer-Shopping-Behavior-Analysis.git
 cd customer-trends-data-analysis-SQL-Python-PowerBI
 ```
 
