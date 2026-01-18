@@ -1,175 +1,92 @@
-# Customer-Shopping-Behavior-Analysis
-End-to-End Data Analytics Portfolio Project (Python | SQL | Power BI)
+Customer Shopping Behavior Analysis
 
-📌 Project Description
+End-to-End Data Analytics Portfolio Project
 
-This project is a complete, industry-grade end-to-end data analytics portfolio project designed to replicate the real-world workflow of a professional Data Analyst working with retail customer behavior data.
+Overview
 
-The objective is to analyze customer shopping patterns to help a retail company:
+This project demonstrates a complete, industry-standard data analytics workflow using retail customer shopping data. The analysis focuses on understanding customer behavior patterns and translating data into actionable business insights that support strategic decision-making.
 
-Identify purchasing trends
+The project simulates real-world responsibilities of a Data Analyst, covering data preparation, analysis, visualization, and reporting using Python, SQL, and Power BI.
 
-Improve customer engagement
+Business Problem
 
-Optimize marketing and product strategies
+A retail company aims to improve sales performance, customer satisfaction, and long-term loyalty by gaining deeper insights into customer shopping behavior.
 
-Increase long-term customer loyalty
+The company wants to understand:
 
-The project demonstrates how raw data can be transformed into actionable business insights using Python, SQL, and Power BI.
+Changes in purchasing patterns across customer demographics
 
-🎯 Business Problem Statement
+Performance differences between online and offline sales channels
 
-A leading retail company wants to better understand its customers’ shopping behavior across:
+The impact of discounts, reviews, seasons, and payment preferences
 
-Demographics
+Factors influencing repeat purchases and customer retention
 
-Product categories
+Key Business Question
 
-Sales channels (Online vs Offline)
+How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize marketing and product strategies?
 
-Management is particularly interested in identifying the impact of:
+Objectives
 
-Discounts
+Analyze customer purchasing behavior and preferences
 
-Reviews
+Identify high-value customers and repeat purchase patterns
 
-Seasonal trends
+Evaluate the impact of discounts and payment methods on sales
 
-Payment preferences
+Provide data-driven recommendations for marketing and product optimization
 
-🔍 Core Business Question:
+Tools & Technologies
 
-How can the company leverage consumer shopping data to identify trends, improve customer engagement, and optimize marketing and product strategies?
+Python – Data cleaning, transformation, and exploratory data analysis
 
-🧠 Skills & Tools Demonstrated
+SQL – Business analysis, segmentation, and querying transactional data
 
-Python: Data Cleaning, EDA, Feature Engineering
+Power BI – Interactive dashboards and insight visualization
 
-SQL: Business Queries, Customer Segmentation, Purchase Analysis
+Jupyter Notebook – Analysis documentation and reproducibility
 
-Power BI: Interactive Dashboards & Storytelling
+Project Workflow
+1. Data Preparation & Exploratory Data Analysis (Python)
 
-Data Modeling & Analytics Workflow
+Data ingestion and inspection
 
-Business Insight Generation & Reporting
+Handling missing values and inconsistencies
 
-🗂️ Project Workflow
-1️⃣ Data Preparation & EDA (Python)
+Feature engineering for analytical use
 
-Data import and inspection
+Exploratory analysis to identify trends and anomalies
 
-Handling missing values & inconsistencies
+2. Data Analysis (SQL)
 
-Feature engineering for analysis
+Load cleaned data into a relational database
 
-Exploratory Data Analysis (EDA)
-
-2️⃣ Data Analysis (SQL)
-
-Load cleaned data into SQL database (MySQL / PostgreSQL / MS SQL Server)
-
-Write SQL queries to answer key business questions:
+Execute analytical SQL queries to answer business questions:
 
 Customer segmentation
 
-Repeat purchase behavior
+Repeat vs one-time buyers
 
-High-value customers
+Revenue contribution by customer type
 
-Discount and payment method impact
+Channel and payment method performance
 
-3️⃣ Data Visualization (Power BI)
+3. Data Visualization (Power BI)
 
-Build an interactive Power BI dashboard
+Design an interactive dashboard to visualize:
 
-Visualize:
-
-Sales trends
+Sales and revenue trends
 
 Customer demographics
 
-Channel performance
+Channel performance (online vs offline)
 
 Product category insights
 
-4️⃣ Reporting & Presentation
+4. Reporting & Insights
 
-Create a structured project report
+Summarize findings in a structured report
 
-Develop a business presentation with actionable recommendations
+Translate analytical results into business-focused recommendations
 
-Present insights as if reporting to stakeholders
-
-📁 Repository Structure
-customer-trends-data-analysis-SQL-Python-PowerBI/
-│
-├── Customer_Shopping_Behavior_Analysis.ipynb
-│   └── Data cleaning, EDA, and SQL connection
-│
-├── customer_behavior_sql_queries.sql
-│   └── Business-focused SQL queries
-│
-├── customer_behavior_dashboard.pbix
-│   └── Interactive Power BI dashboard
-│
-├── data/
-│   └── Raw and cleaned datasets
-│
-└── README.md
-
-🛠️ How to Use This Project
-Step 1: Clone the Repository
-git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-cd customer-trends-data-analysis-SQL-Python-PowerBI
-
-Step 2: Run Python Notebook
-
-Open:
-
-Customer_Shopping_Behavior_Analysis.ipynb
-
-
-This notebook covers:
-
-Data import
-
-Data exploration
-
-Data cleaning
-
-Loading data into SQL database
-
-Step 3: SQL Analysis
-
-Create a database in MySQL / PostgreSQL / MS SQL Server
-
-Load the dataset from Python into SQL
-
-Open and run:
-
-customer_behavior_sql_queries.sql
-
-Step 4: Power BI Dashboard
-
-Connect Power BI to the SQL database
-
-Open:
-
-customer_behavior_dashboard.pbix
-
-
-Explore interactive insights
-
-Step 5: Reporting & Presentation
-
-Write a project report summarizing:
-
-Key insights
-
-Business impact
-
-Strategic recommendations
-
-Build a presentation deck (recommended: Gamma AI)
-
-
+Present insights clearly for non-technical stakeholders
