@@ -1,92 +1,160 @@
-Customer Shopping Behavior Analysis
+#Customer Shopping Behavior Analysis
 
-End-to-End Data Analytics Portfolio Project
+**End-to-End Data Analytics Portfolio Project**
 
-Overview
+## Overview
 
-This project demonstrates a complete, industry-standard data analytics workflow using retail customer shopping data. The analysis focuses on understanding customer behavior patterns and translating data into actionable business insights that support strategic decision-making.
+This project demonstrates a **complete, industry-standard data analytics workflow** using retail customer shopping data. The analysis focuses on understanding customer behavior patterns and translating data into **actionable business insights** that support strategic decision-making.
 
-The project simulates real-world responsibilities of a Data Analyst, covering data preparation, analysis, visualization, and reporting using Python, SQL, and Power BI.
+The project simulates real-world responsibilities of a **Data Analyst**, covering data preparation, analysis, visualization, and reporting using **Python, SQL, and Power BI**.
 
-Business Problem
+---
+
+## Business Problem
 
 A retail company aims to improve sales performance, customer satisfaction, and long-term loyalty by gaining deeper insights into customer shopping behavior.
 
 The company wants to understand:
 
-Changes in purchasing patterns across customer demographics
+* Changes in purchasing patterns across customer demographics
+* Performance differences between online and offline sales channels
+* The impact of discounts, reviews, seasons, and payment preferences
+* Factors influencing repeat purchases and customer retention
 
-Performance differences between online and offline sales channels
+### Key Business Question
 
-The impact of discounts, reviews, seasons, and payment preferences
+**How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize marketing and product strategies?**
 
-Factors influencing repeat purchases and customer retention
+---
 
-Key Business Question
+## Objectives
 
-How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize marketing and product strategies?
+* Analyze customer purchasing behavior and preferences
+* Identify high-value customers and repeat purchase patterns
+* Evaluate the impact of discounts and payment methods on sales
+* Provide data-driven recommendations for marketing and product optimization
 
-Objectives
+---
 
-Analyze customer purchasing behavior and preferences
+## Tools & Technologies
 
-Identify high-value customers and repeat purchase patterns
+* **Python** – Data cleaning, transformation, and exploratory data analysis
+* **SQL** – Business analysis, segmentation, and querying transactional data
+* **Power BI** – Interactive dashboards and insight visualization
+* **Jupyter Notebook** – Analysis documentation and reproducibility
 
-Evaluate the impact of discounts and payment methods on sales
+---
 
-Provide data-driven recommendations for marketing and product optimization
+## Project Workflow
 
-Tools & Technologies
+### 1. Data Preparation & Exploratory Data Analysis (Python)
 
-Python – Data cleaning, transformation, and exploratory data analysis
+* Data ingestion and inspection
+* Handling missing values and inconsistencies
+* Feature engineering for analytical use
+* Exploratory analysis to identify trends and anomalies
 
-SQL – Business analysis, segmentation, and querying transactional data
+### 2. Data Analysis (SQL)
 
-Power BI – Interactive dashboards and insight visualization
+* Load cleaned data into a relational database
+* Execute analytical SQL queries to answer business questions:
 
-Jupyter Notebook – Analysis documentation and reproducibility
+  * Customer segmentation
+  * Repeat vs one-time buyers
+  * Revenue contribution by customer type
+  * Channel and payment method performance
 
-Project Workflow
-1. Data Preparation & Exploratory Data Analysis (Python)
+### 3. Data Visualization (Power BI)
 
-Data ingestion and inspection
+* Design an interactive dashboard to visualize:
 
-Handling missing values and inconsistencies
+  * Sales and revenue trends
+  * Customer demographics
+  * Channel performance (online vs offline)
+  * Product category insights
 
-Feature engineering for analytical use
+### 4. Reporting & Insights
 
-Exploratory analysis to identify trends and anomalies
+* Summarize findings in a structured report
+* Translate analytical results into business-focused recommendations
+* Present insights clearly for non-technical stakeholders
 
-2. Data Analysis (SQL)
+---
 
-Load cleaned data into a relational database
+## Repository Structure
 
-Execute analytical SQL queries to answer business questions:
+```
+customer-trends-data-analysis-SQL-Python-PowerBI/
+│
+├── Customer_Shopping_Behavior_Analysis.ipynb
+│   └── Data cleaning, EDA, and SQL database integration
+│
+├── customer_behavior_sql_queries.sql
+│   └── SQL queries answering key business questions
+│
+├── customer_behavior_dashboard.pbix
+│   └── Interactive Power BI dashboard
+│
+├── data/
+│   └── Raw and processed datasets
+│
+└── README.md
+```
 
-Customer segmentation
+---
 
-Repeat vs one-time buyers
+## How to Run the Project
 
-Revenue contribution by customer type
+### Step 1: Clone the Repository
 
-Channel and payment method performance
+```bash
+git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
+cd customer-trends-data-analysis-SQL-Python-PowerBI
+```
 
-3. Data Visualization (Power BI)
+### Step 2: Execute Python Analysis
 
-Design an interactive dashboard to visualize:
+* Open `Customer_Shopping_Behavior_Analysis.ipynb`
+* Run all cells to:
 
-Sales and revenue trends
+  * Clean and explore data
+  * Prepare dataset for SQL analysis
+  * Load data into the SQL database
 
-Customer demographics
+### Step 3: Run SQL Analysis
 
-Channel performance (online vs offline)
+* Create a database in MySQL / PostgreSQL / MS SQL Server
+* Execute queries from `customer_behavior_sql_queries.sql`
 
-Product category insights
+### Step 4: Open Power BI Dashboard
 
-4. Reporting & Insights
+* Connect Power BI to the SQL database
+* Open `customer_behavior_dashboard.pbix`
+* Explore insights using filters and slicers
 
-Summarize findings in a structured report
+---
 
-Translate analytical results into business-focused recommendations
+## Key Outcomes
 
-Present insights clearly for non-technical stakeholders
+* Identification of customer segments and high-value users
+* Insights into repeat purchase behavior
+* Evaluation of discount and payment method effectiveness
+* Clear, data-driven recommendations for business optimization
+
+---
+
+## Use Cases
+
+* Data Analyst / Business Analyst portfolio project
+* Interview case study discussion
+* Demonstration of end-to-end analytics workflow
+* Practice project for Python, SQL, and Power BI
+
+---
+
+## License
+
+MIT License
+This project is open for use, modification, and inclusion in personal portfolios.
+
+
