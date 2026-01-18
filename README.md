@@ -172,16 +172,4 @@ Strategic recommendations
 
 Build a presentation deck (recommended: Gamma AI)
 
-🎥 Full Project Walkthrough
 
-📺 Advanced Data Analysis Portfolio Project using Retail Customer Data
-👉 Watch on YouTube: Amlan Mohanty
-
-This video walks through the entire project step-by-step from scratch.
-
-🎯 Who Is This Project For?
-
-✔ Data Analyst & Data Science aspirants
-✔ SQL, Python & Power BI learners
-✔ Professionals preparing for interviews
-✔ Anyone building a strong analytics portfolio
